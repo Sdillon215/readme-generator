@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -56,9 +57,9 @@ const questions = () => {
             message: 'Add your license.'
         }
     ])
-    .then(answers => {
-        console.log(answers);
-    })
+    .then(data => {
+        return generateMarkdown(data);
+    });
 };
 
 // TODO: Create a function to write README file
