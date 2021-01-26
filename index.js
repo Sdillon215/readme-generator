@@ -57,6 +57,16 @@ const questions = () => {
             name: 'license',
             message: 'Add your license.',
             choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your Github username?'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?'
         }
     ])
     .then(data => {
@@ -75,5 +85,3 @@ const writeFile = data => {
   };
 
 questions();
-
-// module.exports = data;
