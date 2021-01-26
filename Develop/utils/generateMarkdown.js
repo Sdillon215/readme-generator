@@ -34,6 +34,9 @@ ${data.description}
 ## Deployed Link
 ${data.link}
 
+## Installation
+${data.installation}
+
 ## Usage
 ${data.usage}
 
@@ -43,7 +46,7 @@ ${data.credits}
 ${renderLicenseSection(data.license)}
 
 ## Questions
-Github username: ${data.github}
+Github username: https://github.com/${data.github}
 Email: ${data.email}
 `;
 };

@@ -12,8 +12,10 @@ Once those programs are installed you can initialize the app by entering "node i
 ## Credits
 
 
-
+## License
+    This project is licensed under APACHE 2.0.
+    
 
 ## Questions
-Github username: Sdillon215
+Github username: https://github.com/sdillon215
 Email: sdillon215@gmail.com
