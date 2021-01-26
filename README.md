@@ -1,20 +1,18 @@
 # readme-generator
 
 ## Description
-it generate readmes
+This is an application run from the command line that will dynamically create a README.md file. I have used JavaScript, Node, and the Inquirer npm package to build this app.
 
 ## Deployed Link
-link.link
+This application does not have a deployed link.
 
 ## Usage
-screenshot
+Once those programs are installed you can initialize the app by entering "node index" into the command line. From here follow the prompts and readme-generator will create a high quality README.md file.
 
 ## Credits
-nope
 
-## License
-    This project is licensed under MIT.
-    
+
+
 
 ## Questions
 Github username: Sdillon215
